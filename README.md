@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Interior Consultant</h1>
+<h1 align="center">Recipe page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://rodoct.github.io/Interior-Consultant/">
+    <a href="https://rodoct.github.io/Recipe-Page/">
       Demo
     </a>
     <span> | </span>
@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://legacy.devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://legacy.devchallenges.io/challenges/OEKdUZ6xs0h99C38XVht">
       Challenge
     </a>
   </h3>

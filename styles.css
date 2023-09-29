@@ -70,6 +70,12 @@ header{
     display: flex;
 }
 
+.items__time{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .item__image{
     width: 34px;
 }
@@ -89,6 +95,7 @@ header{
     font-size: 10px;
     line-height: 12px;
     color: #BDBDBD;
+    text-transform: uppercase;
 }
 
 .item__time{
@@ -169,6 +176,15 @@ header{
     color: #333333;
 }
 
+.steps__title{
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
 .steps{
     display: flex;
     margin-bottom: 35px;
@@ -195,6 +211,13 @@ header{
     font-size: 16px;
     line-height: 19.5px;
     max-width: 528px;
+}
+
+.step-acent{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .link{
@@ -225,4 +248,131 @@ footer{
     font-size: 14px;
     line-height: 17px;
     color: #828282;
+}
+
+@media (max-width: 935px) {
+    .info{
+        flex-direction: column;
+    }
+
+    .items{
+        padding: 0;
+        box-shadow: none;
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+    .items__time{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 725px) {
+    .list__recipe{
+        max-width: 325px;
+    }
+
+    .steps__text{
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 450px) {
+    body{
+        padding: 2% 3%;
+    }
+
+    header{
+        margin: 20px 0;
+    }
+
+    .header__title{
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 10px;
+    }
+
+    .header__text{
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 320px;
+    }
+
+    .info{
+        margin-top: 20px;
+    }
+
+    .item{
+        align-items: center;
+    }
+
+    .items{
+        margin-bottom: 30px;
+    }
+
+    .item__image{
+        width: 17px;
+    }
+
+    .item__phase{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .item__time{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .item__images{
+        width: 17px;
+    }
+
+    .item__phases{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .item__times{
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .ingredients__title{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .ingredients__subtitle{
+        font-size: 16px;
+        line-height: 21.5px;
+    }
+
+    .list__recipe{
+        font-size: 14px;
+    }
+
+    .span-acent{
+        font-size: 14px;
+    }
+
+    .span-acents{
+        font-size: 14px;
+    } 
+
+    .steps{
+        margin-bottom: 15px;
+    }
+
+    .step{
+        margin-right: 15px;
+    }
+
+    .link{
+        max-width: 352px;
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
